@@ -28,11 +28,15 @@ Il giocatore controlla un eroe-coniglio che esplora diversi livelli, sconfigge n
 
 Durante il salto è possibile continuare a sparare e modificare la direzione di movimento.
 
-## 🛠️ Tecnologie
+## 📋 Prerequisiti
 
-* **C++**
-* **ncurses**
-* **Makefile**
+Per compilare il progetto sono necessari:
+
+* C++ compiler (g++)
+* GNU Make
+* Libreria ncurses
+
+Su sistemi Windows è necessario utilizzare un ambiente che fornisca g++, make e ncurses, come MSYS2/MinGW.
 
 ## 🚀 Avvio
 
