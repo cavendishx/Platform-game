@@ -1,49 +1,49 @@
 # 🐰 Bunny Fury
 
-**Bunny Fury** è un platform game sviluppato in **C++** con la libreria **ncurses** realizzato nel 2023.
+**Bunny Fury** is a platform game developed in **C++** using the **ncurses** library in 2023.
 
-Il giocatore controlla un eroe-coniglio che esplora diversi livelli, sconfigge nemici, raccoglie oggetti e accumula **punti e denaro**. La difficoltà aumenta progressivamente e il denaro può essere utilizzato nel **Market** per acquistare oggetti utili.
+The player controls a bunny hero who explores different levels, defeats enemies, collects items, and earns **points and money**. The difficulty progressively increases, and the money can be used in the **Market** to purchase useful items.
 
 ## 🎮 Gameplay
 
-* Movimento tra piattaforme e diversi livelli
-* Salto e attacco dall'alto
-* Attacco a distanza tramite proiettili
-* Diversi tipi di nemici
-* Raccolta di oggetti
-* Sistema di punteggio, vite e denaro
-* Market per acquistare oggetti
-* Difficoltà progressiva
-* Persistenza dello stato dei livelli precedentemente esplorati
+* Movement across platforms and different levels
+* Jumping and downward attacks
+* Ranged attacks using projectiles
+* Different types of enemies
+* Item collection
+* Score, lives, and money system
+* Market for purchasing items
+* Progressive difficulty
+* Persistence of the state of previously explored levels
 
-## ⌨️ Comandi
+## ⌨️ Controls
 
-| Tasto                      | Azione                                                 |
-| -------------------------- | ------------------------------------------------------ |
-| `←` / `→`                  | Movimento                                              |
-| `←` / `→` (tenuto premuto) | Movimento continuo e aumento temporaneo della velocità |
-| `SPACE`                    | Spara un proiettile                                    |
-| `↑`                        | Salta                                                  |
-| `↓` durante il salto       | Attacco dall'alto                                      |
+| Key                   | Action                                           |
+| --------------------- | ------------------------------------------------ |
+| `←` / `→`             | Movement                                         |
+| `←` / `→` (held down) | Continuous movement and temporary speed increase |
+| `SPACE`               | Shoot a projectile                               |
+| `↑`                   | Jump                                             |
+| `↓` while jumping     | Downward attack                                  |
 
-Durante il salto è possibile continuare a sparare e modificare la direzione di movimento.
+During a jump, the player can continue shooting and change the movement direction.
 
-## 📋 Prerequisiti
+## 📋 Requirements
 
-Per compilare il progetto sono necessari:
+The following are required to compile the project:
 
 * C++ compiler (g++)
 * GNU Make
-* Libreria ncurses
+* ncurses library
 
-Su sistemi Windows è necessario utilizzare un ambiente che fornisca g++, make e ncurses, come MSYS2/MinGW.
+On Windows systems, an environment that provides g++, make, and ncurses, such as MSYS2/MinGW, is required.
 
-## 🚀 Avvio
+## 🚀 Getting Started
 
-Dopo aver clonato il repository, compilare il progetto tramite:
+After cloning the repository, compile the project using:
 
 ```bash
 make
 ```
 
-Verrà generato l'eseguibile `BunnyFury.exe`.
+This will generate the `BunnyFury.exe` executable.
